@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: auto;
+    background-image: url("/Log\ In\ Page/Images/BG.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: poppins;
+}
+
+.LoginCard {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*line-height: 250%;*/
+}
+
+.LoginForm {
+    position: relative;
+    width: 100%;
+    max-width: 380px;
+    padding: 80px 40px 40px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: 0.6s;
+}
+
+.LoginForm img {
+    position: absolute;
+    border-radius: 50%;
+    width: 100px;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+/* .LoginForm:hover {
+    transform: scale(1.05);
+} */
+
+.Signin {
+    font-weight:bolder;
+    color: #8438ca;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+.username {
+    color: #20a6d9;
+    font-size: 12px;
+    font-weight:550;
+}
+
+.Password {
+    color: #20a6d9;
+    font-size: 12px;
+    font-weight:550;
+    margin-top: 5%;
+}
+
+.Forgot {
+    color: #8438ca;
+    font-size: 12px;
+    font-weight:550px;
+    margin-top: 3%;
+}
+
+.OR {
+    color: #20a6d9;
+    text-align: center;
+    font-size: 12px;
+    font-weight:500px;
+    margin-bottom: 1rem;
+}
+
+.SignUp {
+    color: #20a6d9;
+    font-size: 12px;
+    font-weight:500px;
+    margin-top: 8%;
+    margin-left: 42px;
+}

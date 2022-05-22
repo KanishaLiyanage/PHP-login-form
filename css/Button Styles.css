@@ -1,0 +1,118 @@
+.usernameInput {
+    font-family: poppins;
+    color: #8438ca;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #20a6d9;
+    margin-bottom: 5px;
+    padding: 0px 0px;
+}
+
+.clearusername {
+    font-family: poppins;
+    color: #0b6285;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 2px 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: 0.6s;
+}
+
+.clearusername:hover {
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.PasswordInput {
+    font-family: poppins;
+    text-align: center;
+    border: none;
+    outline: none;
+    color: #8438ca;
+    border-bottom: 1px solid #20a6d9;
+    margin-bottom: 5px;
+    padding: 0px 0px;
+}
+
+.clearpassword {
+    font-family: poppins;
+    color: #0b6285;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 2px 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: 0.6s;
+}
+
+.clearpassword:hover {
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.formsubmit {
+    font-family: poppins;
+    font-weight: bold;
+    color: #443472;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 2px 8px;
+    margin-top: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: 0.6s;
+}
+
+.formsubmit:hover {
+    transform: scale(1.05);
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: #ffffff;
+    background-color: #443472;
+}
+
+.loginGoogle {
+    margin-left: 22.5%;
+    font-family: poppins;
+    color: #443472;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 2px 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: 0.6s;
+}
+
+.loginGoogle:hover {
+    transform: scale(1.05);
+    transition-duration: 0.8s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: #ffffff;
+    background-color: #443472;
+}
+
+.SignupButton {
+    position: relative;
+    display: block;
+    font-family: poppins;
+    font-weight: bold;
+    color: #443472;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 2px 8px;
+    margin-top: -23px;
+    margin-left: 195px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: 0.6s;
+}
+
+.SignupButton:hover {
+    transform: scale(1.05);
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: #ffffff;
+    background-color: #443472;
+}
